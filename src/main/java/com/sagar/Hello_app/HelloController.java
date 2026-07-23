@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "🚀 Hello from Automated Deployment with GitHub Actions Pipeline!";
+        return "🚀 Hello from Automated Deployment with GitHub Actions Pipeline! ";
     }
 
     @GetMapping("/status")
