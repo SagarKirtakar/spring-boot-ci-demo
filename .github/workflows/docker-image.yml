@@ -46,4 +46,3 @@ jobs:
             docker pull sagar1004/spring-boot-ci-demo:latest
             docker run -d --name spring-demo -p 8080:8080 sagar1004/spring-boot-ci-demo:latest
              
-        # Deployment commands will go here
